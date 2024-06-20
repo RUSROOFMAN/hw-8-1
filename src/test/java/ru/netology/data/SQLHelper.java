@@ -15,7 +15,7 @@ public class SQLHelper {
     }
 
     private static Connection getConn() throws SQLException {
-        return DriverManager.getConnection("jdbc:mysql://185.119.57.126:3306/app", "app", "pass");
+        return DriverManager.getConnection("jdbc:mysql://localhost:3306/app", "app", "pass");
     }
 
     @SneakyThrows
